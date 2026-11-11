@@ -1,0 +1,9 @@
+{
+    "type": "content",
+    "modid": "ilonasweaponizedtoolsmith",
+    "name": "Ilona's Weaponized Toolsmith",
+    "authors": ["ilonam"],
+    "version": "1.0.0",
+    "description": "Toolsmith compatibility for spears. Until I figure out the falx blades..."
+
+}

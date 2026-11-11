@@ -1,0 +1,10 @@
+[
+    {
+		"id": "strongbone",
+		"handleStatTag": "strongbone",
+		"canHaveGrip": true,
+		"handleShapePath": "toolsmith:shapes/item/parts/handles/strongbone/handle",
+		"canBeTreated": false,
+		"dryingTimeMult": 1.5
+    }
+]

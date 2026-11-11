@@ -1,0 +1,68 @@
+{
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"material": "game:block/metal/ingot/copper"
+	},
+	"elements": [
+		{
+			"name": "universal-metal-stonehead",
+			"from": [ 19.5, -0.8, 7.3 ],
+			"to": [ 20.5, 1.6, 8.9 ],
+			"rotationOrigin": [ 19.5, -0.8, 7.3 ],
+			"faces": {
+				"north": { "texture": "#material", "uv": [ 0.0, 0.0, 1.0, 2.0 ] },
+				"east": { "texture": "#material", "uv": [ 0.0, 0.0, 1.5, 2.0 ] },
+				"south": { "texture": "#material", "uv": [ 0.0, 0.0, 1.0, 2.0 ] },
+				"west": { "texture": "#material", "uv": [ 0.0, 0.0, 1.5, 2.0 ] },
+				"up": { "texture": "#material", "uv": [ 0.0, 0.0, 1.0, 1.5 ] },
+				"down": { "texture": "#material", "uv": [ 0.0, 0.0, 1.0, 1.5 ] }
+			},
+			"children": [
+				{
+					"name": "universal-metal-metalhead2",
+					"from": [ -2.0, 0.0, -0.2 ],
+					"to": [ -1.0, 2.4, 2.2 ],
+					"rotationOrigin": [ -2.0, 0.0, -0.2 ],
+					"faces": {
+						"north": { "texture": "#material", "uv": [ 0.0, 0.0, 1.0, 2.0 ] },
+						"east": { "texture": "#material", "uv": [ 0.0, 0.0, 2.0, 2.0 ] },
+						"south": { "texture": "#material", "uv": [ 0.0, 0.0, 1.0, 2.0 ] },
+						"west": { "texture": "#material", "uv": [ 0.0, 0.0, 2.0, 2.0 ] },
+						"up": { "texture": "#material", "uv": [ 0.0, 0.0, 1.0, 2.0 ] },
+						"down": { "texture": "#material", "uv": [ 0.0, 0.0, 1.0, 2.0 ] }
+					}
+				},
+				{
+					"name": "universal-metal-metalhead6",
+					"from": [ -1.5, 0.9, -0.1 ],
+					"to": [ 0.5, 1.4, 2.1 ],
+					"rotationOrigin": [ -1.5, 0.9, -0.1 ],
+					"faces": {
+						"north": { "texture": "#material", "uv": [ 0.0, 0.0, 2.0, 0.5 ] },
+						"east": { "texture": "#material", "uv": [ 0.0, 0.0, 2.0, 0.5 ] },
+						"south": { "texture": "#material", "uv": [ 0.0, 0.0, 2.0, 0.5 ] },
+						"west": { "texture": "#material", "uv": [ 0.0, 0.0, 2.0, 0.5 ] },
+						"up": { "texture": "#material", "uv": [ 0.0, 0.0, 2.0, 2.0 ] },
+						"down": { "texture": "#material", "uv": [ 0.0, 0.0, 2.0, 2.0 ] }
+					}
+				},
+				{
+					"name": "universal-metal-metalhead3",
+					"from": [ -3.5, 0.0, -0.2 ],
+					"to": [ -2.5, 2.4, 2.2 ],
+					"rotationOrigin": [ -3.5, 0.0, -0.2 ],
+					"faces": {
+						"north": { "texture": "#material", "uv": [ 0.0, 0.0, 1.0, 2.0 ] },
+						"east": { "texture": "#material", "uv": [ 0.0, 0.0, 2.0, 2.0 ] },
+						"south": { "texture": "#material", "uv": [ 0.0, 0.0, 1.0, 2.0 ] },
+						"west": { "texture": "#material", "uv": [ 0.0, 0.0, 2.0, 2.0 ] },
+						"up": { "texture": "#material", "uv": [ 0.0, 0.0, 1.0, 2.0 ] },
+						"down": { "texture": "#material", "uv": [ 0.0, 0.0, 1.0, 2.0 ] }
+					}
+				}
+			]
+		}
+	]}

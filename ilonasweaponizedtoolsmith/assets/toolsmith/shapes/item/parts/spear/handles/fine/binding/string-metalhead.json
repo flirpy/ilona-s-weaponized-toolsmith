@@ -1,0 +1,102 @@
+{
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"material": [32,32]
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "fine-string-metalhead",
+			"from": [ 20.7, -1.0, 7.5 ],
+			"to": [ 21.2, 2.0, 8.7 ],
+			"rotationOrigin": [ 20.7, -1.0, 7.5 ],
+			"rotationZ": -22.5,
+			"faces": {
+				"north": { "texture": "#material", "uv": [ 0.0, 0.0, 0.5, 3.0 ] },
+				"east": { "texture": "#material", "uv": [ 0.0, 0.0, 1.0, 3.0 ] },
+				"south": { "texture": "#material", "uv": [ 0.0, 0.0, 0.5, 3.0 ] },
+				"west": { "texture": "#material", "uv": [ 0.0, 0.0, 1.0, 3.0 ] },
+				"up": { "texture": "#material", "uv": [ 0.0, 0.0, 0.5, 1.0 ] },
+				"down": { "texture": "#material", "uv": [ 0.0, 0.0, 0.5, 1.0 ] }
+			},
+			"children": [
+				{
+					"name": "fine-string-metalhead2",
+					"from": [ 0.978, 0.5133, 0.0 ],
+					"to": [ 1.478, 3.4133, 1.2 ],
+					"rotationOrigin": [ 0.978, 0.5133, 0.0 ],
+					"rotationZ": 45.0,
+					"faces": {
+						"north": { "texture": "#material", "uv": [ 0.0, 0.0, 0.5, 2.5 ] },
+						"east": { "texture": "#material", "uv": [ 0.0, 0.0, 1.0, 2.5 ] },
+						"south": { "texture": "#material", "uv": [ 0.0, 0.0, 0.5, 2.5 ] },
+						"west": { "texture": "#material", "uv": [ 0.0, 0.0, 1.0, 2.5 ] },
+						"up": { "texture": "#material", "uv": [ 0.0, 0.0, 0.5, 1.0 ] },
+						"down": { "texture": "#material", "uv": [ 0.0, 0.0, 0.5, 1.0 ] }
+					}
+				},
+				{
+					"name": "fine-string-metalhead5",
+					"from": [ -8.14, -2.53, -0.2 ],
+					"to": [ -6.34, -0.93, 1.6 ],
+					"rotationOrigin": [ -8.3373, -2.7287, -0.2 ],
+					"rotationZ": 22.5,
+					"faces": {
+						"north": { "texture": "#material", "uv": [ 0.0, 0.0, 1.5, 1.5 ] },
+						"east": { "texture": "#material", "uv": [ 0.0, 0.0, 1.5, 1.5 ] },
+						"south": { "texture": "#material", "uv": [ 0.0, 0.0, 1.5, 1.5 ] },
+						"west": { "texture": "#material", "uv": [ 0.0, 0.0, 1.5, 1.5 ] },
+						"up": { "texture": "#material", "uv": [ 0.0, 0.0, 1.5, 1.5 ] },
+						"down": { "texture": "#material", "uv": [ 0.0, 0.0, 1.5, 1.5 ] }
+					}
+				},
+				{
+					"name": "fine-string-metalhead4",
+					"from": [ -5.37, -1.58, -0.2 ],
+					"to": [ -4.17, 0.32, 1.6 ],
+					"rotationOrigin": [ -5.5657, -1.5807, -0.2 ],
+					"rotationZ": 22.5,
+					"faces": {
+						"north": { "texture": "#material", "uv": [ 0.0, 0.0, 1.0, 1.5 ] },
+						"east": { "texture": "#material", "uv": [ 0.0, 0.0, 1.5, 1.5 ] },
+						"south": { "texture": "#material", "uv": [ 0.0, 0.0, 1.0, 1.5 ] },
+						"west": { "texture": "#material", "uv": [ 0.0, 0.0, 1.5, 1.5 ] },
+						"up": { "texture": "#material", "uv": [ 0.0, 0.0, 1.0, 1.5 ] },
+						"down": { "texture": "#material", "uv": [ 0.0, 0.0, 1.0, 1.5 ] }
+					}
+				},
+				{
+					"name": "fine-string-metalhead6",
+					"from": [ -8.0733, -1.937, -0.45 ],
+					"to": [ -1.4733, -1.437, 1.85 ],
+					"rotationOrigin": [ -8.0733, -1.937, -0.5 ],
+					"rotationZ": 22.5,
+					"faces": {
+						"north": { "texture": "#material", "uv": [ 0.0, 0.0, 6.5, 0.5 ] },
+						"east": { "texture": "#material", "uv": [ 0.0, 0.0, 2.0, 0.5 ] },
+						"south": { "texture": "#material", "uv": [ 0.0, 0.0, 6.5, 0.5 ] },
+						"west": { "texture": "#material", "uv": [ 0.0, 0.0, 2.0, 0.5 ] },
+						"up": { "texture": "#material", "uv": [ 0.0, 0.0, 6.5, 2.0 ] },
+						"down": { "texture": "#material", "uv": [ 0.0, 0.0, 6.5, 2.0 ] }
+					}
+				},
+				{
+					"name": "fine-string-metalhead3",
+					"from": [ -2.7941, -0.43, -0.2 ],
+					"to": [ -1.2941, 1.27, 1.6 ],
+					"rotationOrigin": [ -2.7941, -0.6326, -0.3 ],
+					"rotationZ": 22.5,
+					"faces": {
+						"north": { "texture": "#material", "uv": [ 0.0, 0.0, 1.5, 1.5 ] },
+						"east": { "texture": "#material", "uv": [ 0.0, 0.0, 1.5, 1.5 ] },
+						"south": { "texture": "#material", "uv": [ 0.0, 0.0, 1.5, 1.5 ] },
+						"west": { "texture": "#material", "uv": [ 0.0, 0.0, 1.5, 1.5 ] },
+						"up": { "texture": "#material", "uv": [ 0.0, 0.0, 1.5, 1.5 ] },
+						"down": { "texture": "#material", "uv": [ 0.0, 0.0, 1.5, 1.5 ] }
+					}
+				}
+			]
+		}
+	]}

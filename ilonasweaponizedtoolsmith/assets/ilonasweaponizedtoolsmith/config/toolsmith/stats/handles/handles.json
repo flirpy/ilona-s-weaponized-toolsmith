@@ -1,0 +1,11 @@
+[
+
+	{
+		"id": "strongbone",
+		"baseHPfactor": 1.5,
+		"selfHPBonus": 0.15,
+		"bindingHPBonus": 0.45,
+		"speedBonus": 0.3
+	}
+]
+

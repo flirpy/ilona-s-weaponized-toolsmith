@@ -1,0 +1,17 @@
+[
+  {
+    "file": "game:itemtypes/combatoverhaul/spear",
+    "op": "remove",
+    "path": "/behaviorsByType/*-iron/2"
+  },
+  {
+    "file": "game:itemtypes/combatoverhaul/spear",
+    "op": "remove",
+    "path": "/behaviorsByType/*-meteoriciron/2"
+  },
+  {
+    "file": "game:itemtypes/combatoverhaul/spear",
+    "op": "remove",
+    "path": "/behaviorsByType/*-steel/2"
+  }
+]

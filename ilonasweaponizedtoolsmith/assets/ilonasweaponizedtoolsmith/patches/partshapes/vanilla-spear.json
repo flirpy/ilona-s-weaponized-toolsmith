@@ -1,0 +1,20 @@
+[
+    {
+        "file": "game:itemtypes/tool/spear",
+        "path": "/attributes/groundStorageTransformByType",
+        "op": "add",
+        "value": {
+        "*-meteoriciron": {
+				"translation": { "x": -0.5, "y": 0.7, "z": 0.12 },
+				"rotation": { "x": 16, "y": 0, "z": 90 },
+				"scale": 1
+			},
+			"*": {
+				"translation": { "x": 0, "y": 0.7, "z": 0.596 },
+				"rotation": { "x": 16, "y": 90, "z": 90 },
+				"scale": 1
+			}
+        },
+        "condition": { "when": "Toolsmith_MultiPartRendering", "isValue": "true" }
+    }
+]

@@ -1,0 +1,48 @@
+[
+	{
+		"op": "replace",
+		"path": "/shapeByType",
+		"value": {
+			"*-copper": { "base": "toolsmith:item/parts/spear/heads/metal-copper" },
+			"*-tinbronze": { "base": "toolsmith:item/parts/spear/heads/metal-tinbronze" },
+			"*-bismuthbronze": { "base": "toolsmith:item/parts/spear/heads/metal-bismuthbronze" },
+			"*-blackbronze": { "base": "toolsmith:item/parts/spear/heads/metal-blackbronze" },
+			"*-gold": { "base": "toolsmith:item/parts/spear/heads/ornategold" },
+			"*-silver": { "base": "toolsmith:item/parts/spear/heads/ornatesilver" },
+			"*-iron": { "base": "toolsmith:item/parts/spear/heads/metal-iron" },
+			"*-steel": { "base": "toolsmith:item/parts/spear/heads/metal-steel" },
+			"*-meteoriciron": { "base": "toolsmith:item/parts/spear/heads/metal-meteoriciron" },
+			"*": { "base": "toolsmith:item/parts/spear/heads/stone" },
+		},
+		"file": "game:itemtypes/toolhead/spearhead.json",
+		"condition": { "when": "Toolsmith_MultiPartRendering", "isValue": "true" }
+	},
+	{
+		"op": "add",
+		"path": "/guiTransformByType",
+		"value": {
+			"*": {
+				"translation": { "x": 12, "y": 36, "z": 12 },
+				"rotation": { "x": 0, "y": 30, "z": -30 },
+				"origin": { "x": 1.4, "y": 0.5, "z": 0.5 },
+				"scale": 2.7
+			}
+		},
+		"file": "game:itemtypes/toolhead/spearhead.json",
+		"condition": { "when": "Toolsmith_MultiPartRendering", "isValue": "true" }
+	},
+	{
+		"op": "addmerge",
+		"path": "/attributes",
+		"value": {
+			"inForgeTransform": {
+				"translation": { "x": -0.3, "y": -0.48, "z": 0.1 },
+				"rotation": { "x": -90, "y": 0, "z": 90 },
+				"scale": 0.7
+			}
+		},
+		"file": "game:itemtypes/toolhead/spearhead.json",
+		"condition": { "when": "Toolsmith_MultiPartRendering", "isValue": "true" }
+	}
+
+]
